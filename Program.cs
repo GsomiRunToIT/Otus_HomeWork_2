@@ -16,6 +16,9 @@ class Program
         SecondList(number, time);
         Console.WriteLine(border);
         LastList(number, time);
+
+    }
+
         static void FirstList(int number, Stopwatch time)
         {
             var list = new List<int>();
@@ -105,7 +108,7 @@ class Program
             Console.WriteLine("Время поиска и вывода всех чисел в коллекции linkedList, которые делятся на 777 без остатка " + time.Elapsed);
             time.Reset();
         }
-    }
+    
 }
 
 
